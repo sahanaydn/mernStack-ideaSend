@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 mongoose.connect(
-  "mongodb+srv://deneme:deneme123@cluster1.gm4dn.mongodb.net/iletFikir?retryWrites=true&w=majority",
+  "YOUR_MONGODB_URL",
   { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false },
   (err) => {
     if (err) throw err;
