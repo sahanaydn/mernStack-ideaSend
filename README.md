@@ -8,6 +8,8 @@ Reference codes of admins are for single use only. A reference code is given to 
 MERN stack idea send 
 
 **First you need to create a database with mongodb atlas and paste your url in the relevant place in the server.js folder.**
+
+
 **INSTALL
 
 SERVER
